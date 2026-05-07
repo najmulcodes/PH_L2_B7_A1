@@ -33,7 +33,6 @@ interface Book {
 function toggleReadStatus(book: Book): Book & { isRead: boolean } {
   return { ...book, isRead: true };
 }
-
 // Problem 6
 class Person {
   name: string;
